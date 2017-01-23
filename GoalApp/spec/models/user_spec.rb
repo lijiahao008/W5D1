@@ -77,6 +77,4 @@ RSpec.describe User, type: :model do
       expect(User.find_by_credentials("qweqwe", "qweqwe").password).not_to be("qweqwe")
     end
   end
-
-
 end
